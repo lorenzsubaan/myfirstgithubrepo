@@ -1,0 +1,42 @@
+Charmander, known as Hitokage in Japan, is a Pokémon species in Nintendo and Game Freak's Pokémon franchise. 
+
+Category: Lizard
+
+Type: Fire
+
+Ability: Blaze
+
+Weakness: Ground, Water, Rock
+
+Evolves to: Charmeleon
+
+Height: 61 cm
+
+
+	
+Bulbasaur, known as Fushigidane in Japan, is the first Pokémon species in Nintendo and Game Freak's Pokémon franchise. Designed by Ken Sugimori, their name is a combination of the words "bulb" and "dinosaur." 
+
+Category: Seed
+
+Type: Grass, Poison
+
+Ability: Overgrow
+
+Weakness: Psychic, Ice, Flying, Fire
+
+Evolves to: Ivysaur
+
+
+Pikachu are a species of Pokémon, fictional creatures that appear in an assortment of video games, animated television shows and movies, trading card games, and comic books licensed by The Pokémon Company, a Japanese corporation. 
+
+Category: Mouse
+
+Type: Electric
+
+Ability: Static
+
+Weakness: Ground
+
+Evolves from: Pichu
+
+Evolves to: Raichu
