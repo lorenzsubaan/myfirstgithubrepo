@@ -1,0 +1,246 @@
+@keyframes cloud-top{
+    0%{
+        opacity: 0;
+        transform: translate(95vw);
+    
+    }
+    100%{
+        opacity: 1;
+        transform: translate(-95vw) ;
+    }    
+}
+@keyframes cloud-bottom{
+    0%{
+        opacity: 0;
+        transform: translate(-95vw);
+    
+    }
+    100%{
+        opacity: 1;
+        transform: translate(95vw) ;
+    }    
+}
+
+@font-face{
+    src: url(../fonts/Merriweather-Regular.ttf);
+    font-family: Merriweatther;
+    
+}
+
+@font-face{
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-family: Montserrat;
+}
+@font-face{
+    src: url(../fonts/Sacramento-Regular.ttf);
+    font-family: Sacramento;
+}
+
+
+
+
+
+
+
+
+
+.active{
+    background-color: rgb(117, 199, 231);
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: skyblue;
+    border: 0px;
+    text-align: center;
+
+}
+
+.button{
+    color: rgb(152, 217, 243);
+    height: 50px;
+    width: 100px;
+    font-family: Monsterrat;
+    font-size: 15px;
+    margin: 5rem;
+    top: 300px;
+    position: relative;
+   
+}
+.button:hover{
+    
+    color: black;
+}
+
+.cloud1{
+    position: absolute;
+    top: 76px;
+    right: 20%;
+    clear: both;
+    width: 16%;
+    animation: cloud-top 14s infinite linear ;
+    
+    
+}
+.cloud2{
+    position: absolute;
+    top: 400px ;
+    left: 19%;
+    clear: both;
+    width: 16%;
+    animation: cloud-bottom 14s infinite linear;
+}
+
+
+h1{
+    text-align: center;  
+    color: black;
+    margin-top: 2%;
+    font-family: Sacramento ;
+    font-size: 90px;
+    position: relative;
+    
+}
+h2{
+    text-align: center;  
+    color: black;
+    
+    font-family: Sacramento ;
+    font-size: 90px;
+    position: relative;
+}
+p{
+    text-align: center;  
+    color: black;
+
+    font-family: Monsterrat ;
+    font-size: 19px;
+    position: relative;
+}
+
+.home-header{
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
+    padding-top: 15rem;
+}
+
+.header-sub{
+    font-family: Montserrat ;
+    font-size: 3rem;
+    color: rgb(205, 233, 245);
+}
+
+.home-footer{
+    height: 6vh;
+    background:  rgb(152, 217, 243);
+    font-family: Merriweather;
+    font-size: 2rem;
+    top: 300px;
+    position: relative;
+}
+.home2-footer{
+    height: 6vh;
+    background:  rgb(152, 217, 243);
+    font-family: Merrieweather;
+    font-size: 2rem;
+    color: black;
+    top: 300px;
+    position: relative;
+}
+
+.intro-img{
+    margin-top: 5%;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 100%;
+    position: relative;
+}
+
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding:  24px 26px;
+    text-decoration: none;
+    font-family: Monsterrat;
+    font-size: 16px;
+}
+
+
+.mountain
+{
+     position: relative;
+     position: ;
+     top: 9.4rem;
+     
+}
+p{
+    
+    text-align: center;   
+    color: black;
+    font-family: Monsterrat;
+    font-size: 19px;
+    position: relative;
+    
+}
+
+.getintouch{
+    top: 300px;
+    position: relative
+    ;
+}
+
+#skills{
+    margin-top: 7%;
+    text-align: center;  
+    color: black;
+    font-family: sans-serif;
+}
+.skills-article-container{
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+    line-height: 2;
+}
+
+.title-lorem{
+    top: 10rem;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(152, 217, 243);
+    position: sticky;
+    top: 0;
+}
+
+#footer{
+   background-color: rgb(152, 217, 243);
+   padding: 2%;
+}
+#follow{
+    text-align: left
+   
+    
+}
+#contact{
+    text-align: left
+   
+    
+}
